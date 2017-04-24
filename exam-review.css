@@ -1,0 +1,13 @@
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+h4 {
+  text-transform: uppercase;
+  border-bottom: solid;
+  margin-top: 30px;
+  padding: 10px;
+}
+h2 {
+  border-bottom: solid;
+}
