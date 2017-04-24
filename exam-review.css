@@ -16,13 +16,24 @@ h2 {
   margin: 0 auto;
   background-color: white;
   padding: 50px;
+  overflow: auto;
 }
 body {
   background-color: grey;
 }
+@media(min-width: 600px) {
 .right-column {
   background-color: #f7f7f7;
+  float: right;
+  width: 30%;
+  padding-left: 10px;
+  }
+.left-column {
+    float: left;
+    width: 70%;
+    padding-right: 10px;
 }
-.clearfix {
-  overflow: auto;
+* {
+  box-sizing: border-box;
+}
 }
