@@ -11,3 +11,18 @@ h4 {
 h2 {
   border-bottom: solid;
 }
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px;
+}
+body {
+  background-color: grey;
+}
+.right-column {
+  background-color: #f7f7f7;
+}
+.clearfix {
+  overflow: auto;
+}
